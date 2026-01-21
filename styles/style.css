@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header{
+  width: 100%;
+  background-color: #1A0B2E;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 25px 0;
+}
+.logo{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+span{
+  background: linear-gradient(180deg, #9000f7, #fa0fb0, #f7e93f);
+  background-clip: text;
+  color: transparent;
+}
+.nav-item>ul, li{
+  display: flex;
+  gap: 32px;
+  line-height: 120%;
+  text-decoration: none;
+  
+}
+a, #banner>p{
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+.btn{
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #FFFFFF;
+  border-radius: 100px;
+  padding: 12.5px 16px;
+  background: linear-gradient(-150deg, #9000f7, #fa0fb0, #f7e93f);
+  border: none;
+}
+
+#banner{
+  background: url(../assets/hero-bg.png);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 160px;
+}
+/* .box{
+  width: 350px;
+} */
+.circle{
+  padding: 101px 625px 0;
+  position: relative;
+  right: -39px;
+}
+.mic{
+  position: absolute;
+  top: 8px;
+}
+
+#banner h1{
+  font-size: 3.5rem;
+  color: #FFFFFF;
+  font-weight: 800;
+  padding-top: 40px;
+  padding-bottom: 8px;
+}
+button, .normal-button{
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #00FF88;
+  border-radius: 100px;
+  padding: 12.5px 16px;
+  border: 1px solid #00FF88;
+  background-color: transparent;
+  margin-left: 10px;
+}
+#banner p{
+  padding-bottom: 10px;
+}
+
+
+#about{
+  width: 100%;
+  background-color: #1A0B2E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.about-section{
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 50px 200px;
+  /* background-color: #00FF88; */
+
+}
+.about-section h2{
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.about-section p{
+  line-height: 20px;
+  opacity: 80%;
+}
+
+.rating{
+  max-width: 80%;
+  display: flex;
+  gap: 80px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0px 200px 120px;
+}
+.rating h3{
+  font-size: 2.8rem;
+  color: #00FF88;
+  padding-bottom: 10px;
+}
