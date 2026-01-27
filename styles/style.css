@@ -72,9 +72,7 @@ a, #banner>p{
   justify-content: center;
   padding-bottom: 160px;
 }
-/* .box{
-  width: 350px;
-} */
+
 
 .banner-box{
   position: relative;
@@ -86,8 +84,6 @@ a, #banner>p{
   padding-top: 101px;
 }
 .banner-box .circle{
-  /* padding: 101px 625px 0; */
-  /* right: -39px; */
   padding-top: 101px;
   position: absolute;
   inset: 0;
@@ -95,14 +91,13 @@ a, #banner>p{
 }
 .banner-box .mic{
   position: absolute;
-  /* top: 5px; */
   z-index: 10;
 }
 
 .banner-box .new-badge{
   position: absolute;
-  top: 60px;        /* adjust as needed */
-  right: 30px;      /* adjust as needed */
+  top: 60px; 
+  right: 30px;
 
   background: #2aff9c;
   color: #000000;
@@ -111,7 +106,7 @@ a, #banner>p{
   padding: 8px 16px;
   border-radius: 20px;
 
-  z-index: 20;      /* mic & circle-এর উপরে থাকবে */
+  z-index: 20;
 }
 
 #banner h1{
@@ -152,7 +147,7 @@ button, .normal-button{
   text-align: center;
   color: #FFFFFF;
   padding: 50px 200px;
-  /* background-color: #00FF88; */
+ 
 
 }
 .about-section h2{
@@ -321,7 +316,6 @@ footer{
   display: block;
   align-items: center;
   justify-items: center;
-  /* background-color: #00FF88; */
   max-width: 80%;
 }
 
@@ -335,7 +329,6 @@ footer{
 .icons{
   display: flex;
   gap: 50px;
-  /* text-align: center; */
   align-items: center;
 }
 .icon-item{
@@ -398,7 +391,7 @@ footer{
   #banner {
     background-size: cover;
     background-position: center;
-    padding-bottom: 100px; /* একটু কম */
+    padding-bottom: 100px;
   }
 
   .banner-box {
@@ -430,7 +423,7 @@ footer{
 
   .about-section {
     max-width: 90%;
-    padding: 30px 20px; /* small screen friendly */
+    padding: 30px 20px;
   }
 
   .about-section h2 {
@@ -442,19 +435,17 @@ footer{
     line-height: 1.5rem;
   }
 
-  /* rating section layout 2x2 */
   .rating {
     max-width: 90%;
-    flex-wrap: wrap;       /* allow items to move to next line */
-    gap: 20px 30px;        /* row gap 20px, column gap 30px */
+    flex-wrap: wrap;
+    gap: 20px 30px;
     justify-content: center;
     padding: 40px 20px 80px;
   }
 
   .rating > div {
-    flex: 0 0 45%;         /* 2 items per row, ~45% width */
-    margin-bottom: 20px;   /* spacing between rows */
-  }
+    flex: 0 0 45%;
+    margin-bottom: 20px;
 
   .rating h3 {
     font-size: 2rem;
@@ -481,8 +472,6 @@ footer{
     padding: 24px;
     border-radius: 24px;
   }
-
-  /* grid span reset */
   .item-1,
   .item-2,
   .item-3,
@@ -576,8 +565,7 @@ footer{
   display: flex;
   justify-content: center;
   padding: 110px;
-  background-size: cover;       /* show full image */
-  /* background-position: center; */
+  background-size: cover;
 }
 .footer-box{
   display: block;
@@ -647,11 +635,11 @@ footer{
 
 
   #banner {
-    background-size: cover;       /* full cover */
-    background-position: center;  /* centered */
+    background-size: cover;
+    background-position: center; 
     background-repeat: no-repeat;
     padding-top: 50px;
-    padding-bottom: 130px;        /* slightly smaller than desktop */
+    padding-bottom: 130px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -659,9 +647,8 @@ footer{
     justify-content: center;
   }
 
-  /* banner box slightly smaller than desktop */
   .banner-box {
-    width: 300px;   /* desktop 350px */
+    width: 300px;
     height: 300px;
     padding-top: 80px;
   }
@@ -672,12 +659,11 @@ footer{
   }
 
   .banner-box .mic {
-    width: 150px;   /* desktop 200px approx */
+    width: 150px;
   }
 
-  /* text */
   #banner h1 {
-    font-size: 3rem;    /* desktop 3.5rem */
+    font-size: 3rem;
     padding-top: 60px;
     padding-bottom: 8px;
   }
@@ -688,7 +674,6 @@ footer{
     padding: 0 20px 12px;
   }
 
-  /* buttons side by side */
   #banner > div {
     display: flex;
     justify-content: center;
@@ -711,11 +696,11 @@ footer{
 
   .about-section {
     max-width: 85%;
-    padding: 40px 60px; /* desktop 50px 200px */
+    padding: 40px 60px;
   }
 
   .about-section h2 {
-    font-size: 2.5rem; /* desktop 3rem */
+    font-size: 2.5rem;
   }
 
   .about-section p {
@@ -723,26 +708,25 @@ footer{
     line-height: 1.6rem;
   }
 
-  /* rating section */
   .rating {
     max-width: 85%;
-    flex-wrap: wrap;        /* allow items to wrap if needed */
-    gap: 30px 40px;         /* row gap 30px, column gap 40px */
+    flex-wrap: wrap;
+    gap: 30px 40px;
     justify-content: center;
-    padding: 60px 60px 100px; /* desktop padding adjusted */
+    padding: 60px 60px 100px;
   }
 
   .rating > div {
-    flex: 0 0 45%;          /* 2 items per row if screen narrow */
+    flex: 0 0 45%; 
     margin-bottom: 20px;
   }
 
   .rating h3 {
-    font-size: 2.2rem;     /* desktop 2.8rem */
+    font-size: 2.2rem; 
   }
 
   .rating p {
-    font-size: 0.95rem;    /* slightly smaller than desktop */
+    font-size: 0.95rem;
     line-height: 1.3rem;
   }
 
@@ -764,9 +748,8 @@ footer{
     border-radius: 32px;
   }
 
-  /* Grid layout control */
   .item-1{
-    grid-column: span 2;   /* full width highlight */
+    grid-column: span 2;
     grid-row: auto;
   }
 
@@ -863,10 +846,9 @@ footer{
 
 @media screen and (min-width: 993px) {
 
-  /* About Section */
   .about-section {
-    max-width: 80%;      /* desktop original */
-    padding: 50px 200px; /* original padding */
+    max-width: 80%; 
+    padding: 50px 200px; 
   }
 
   .about-section h2 {
@@ -880,20 +862,19 @@ footer{
     text-align: center;
   }
 
-  /* Rating Section */
   .rating {
     max-width: 80%;
     display: flex;
-    flex-wrap: nowrap;   /* all 4 items in a single row */
+    flex-wrap: nowrap;
     justify-content: space-between;
-    gap: 80px;           /* original spacing */
+    gap: 80px; 
     text-align: center;
     padding: 0px 200px 120px;
   }
 
   .rating > div {
-    flex: 1 1 auto;      /* each item grows equally */
-    margin-bottom: 0;    /* no extra bottom margin */
+    flex: 1 1 auto; 
+    margin-bottom: 0; 
   }
 
   .rating h3 {
@@ -926,7 +907,6 @@ footer{
     border-radius: 40px;
   }
 
-  /* Desktop Grid Design */
   .item-1{
     grid-row: span 2;
   }
@@ -1010,7 +990,4 @@ footer{
     width: 42px;
     height: 42px;
   }
-
-
-
 }
