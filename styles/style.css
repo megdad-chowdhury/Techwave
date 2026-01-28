@@ -351,8 +351,8 @@ footer{
 
 /* Responsive Section for Under 576px  */
 
-@media screen and (max-width:576px) {
- nav {
+@media screen and (max-width:576px){
+ nav{
     justify-content: space-between;
     padding: 20px;
     position: relative;
@@ -446,6 +446,7 @@ footer{
   .rating > div {
     flex: 0 0 45%;
     margin-bottom: 20px;
+  }
 
   .rating h3 {
     font-size: 2rem;
@@ -458,26 +459,27 @@ footer{
 
   .service h2{
     font-size: 2rem;
-    padding: 80px 0 30px;
+    padding: 80px 16px 30px;
   }
 
   .service-section{
+    display: grid; 
     max-width: 100%;
     padding: 0 16px 80px;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    gap: 20px;
   }
 
   .card{
+    width: 100%;
     padding: 24px;
     border-radius: 24px;
   }
-  .item-1,
-  .item-2,
-  .item-3,
-  .item-4{
-    grid-column: auto;
-    grid-row: auto;
+
+  .service-section > *{
+    grid-column: auto !important;
+    grid-row: auto !important;
   }
 
   .feature{
@@ -587,8 +589,8 @@ footer{
   padding: 2px;
 }
 
-
 }
+
 
 
 
